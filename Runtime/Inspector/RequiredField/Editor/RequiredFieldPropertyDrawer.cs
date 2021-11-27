@@ -1,8 +1,7 @@
-using Tok.CustomAttributes;
 using UnityEditor;
 using UnityEngine;
 
-namespace Tok.Editor.CustomAttributes
+namespace Tok.CustomAttributes
 {
     [CustomPropertyDrawer(typeof(RequiredFieldAttribute))]
     public class RequiredFieldPropertyDrawer : PropertyDrawer

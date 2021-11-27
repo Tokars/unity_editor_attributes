@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using Tok.CustomAttributes;
 using UnityEditor;
 using UnityEngine;
 
-namespace Tok.Editor.CustomAttributes
+namespace Tok.CustomAttributes
 {
     [CustomEditor(typeof(MonoBehaviour), true)]
     [CanEditMultipleObjects]
-    public class EditorButtonDrawer : UnityEditor.Editor
+    public class EditorButtonDrawer : Editor
     {
         public override void OnInspectorGUI()
         {
