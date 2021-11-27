@@ -9,7 +9,7 @@ namespace Tok.Editor.CustomAttributes
 {
     [CustomEditor(typeof(MonoBehaviour), true)]
     [CanEditMultipleObjects]
-    public class EditorButton : UnityEditor.Editor
+    public class EditorButtonDrawer : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {
