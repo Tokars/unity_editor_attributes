@@ -1,0 +1,17 @@
+{
+  "name": "com.tokar.editor.custom_attributes",
+  "displayName": "Editor Custom Attributes",
+  "description": "Unity editor custom attributes.",
+  "version": "0.0.0-preview",
+  "keywords": [
+    "editor",
+    "attributes"
+  ],
+  
+  "author": {
+    "name": "o_tokar",
+    "email": "#",
+    "url": "https://#"
+  },
+  "type": "editor"
+}
