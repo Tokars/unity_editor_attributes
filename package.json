@@ -2,7 +2,7 @@
   "name": "com.tokar.editor.custom_attributes",
   "displayName": "Editor Custom Attributes",
   "description": "Unity editor custom attributes.",
-  "version": "0.0.0-preview",
+  "version": "0.1.0",
   "keywords": [
     "editor",
     "attributes"
