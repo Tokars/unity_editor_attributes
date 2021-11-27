@@ -1,5 +1,5 @@
 {
-    "name": "com.tokar.editor.custom_attributes.Runtime",
+    "name": "com.tokar.custom_attributes.Runtime",
     "rootNamespace": "Tok.CustomAttributes",
     "references": [],
     "includePlatforms": [],

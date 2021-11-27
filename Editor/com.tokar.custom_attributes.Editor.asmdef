@@ -1,10 +1,12 @@
 {
-    "name": "com.tokar.editor.custom_attributes.Editor",
-    "rootNamespace": "Tok.Editor.CustomAttributes",
+    "name": "com.tokar.custom_attributes.Editor",
+    "rootNamespace": "",
     "references": [
         "GUID:c284b9a9d3dea5681b4bb5cdf4790bd5"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
