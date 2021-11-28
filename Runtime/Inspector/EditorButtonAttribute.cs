@@ -3,7 +3,7 @@
 
 using UnityEngine;
 
-namespace Tok.CustomAttributes
+namespace OT.Attributes
 {
     /// <summary> Simple button for method without parameters </summary>
     [System.AttributeUsage(System.AttributeTargets.Method)]

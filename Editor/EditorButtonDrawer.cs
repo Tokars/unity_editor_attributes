@@ -4,11 +4,11 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace Tok.CustomAttributes
+namespace OT.Attributes.Editor
 {
     [CustomEditor(typeof(MonoBehaviour), true)]
     [CanEditMultipleObjects]
-    public class EditorButtonDrawer : Editor
+    public class EditorButtonDrawer : UnityEditor.Editor
     {
         public override void OnInspectorGUI()
         {

@@ -1,6 +1,6 @@
 {
-    "name": "com.tokar.custom_attributes.Runtime",
-    "rootNamespace": "Tok.CustomAttributes",
+    "name": "com.tokar.attributes.Runtime",
+    "rootNamespace": "OT.Attributes",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

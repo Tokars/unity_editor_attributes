@@ -1,8 +1,8 @@
 {
-  "name": "com.tokar.custom_attributes",
+  "name": "com.tokar.attributes",
   "displayName": "Editor Custom Attributes",
   "description": "Unity editor custom attributes.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "keywords": [
     "editor",
     "attributes"
