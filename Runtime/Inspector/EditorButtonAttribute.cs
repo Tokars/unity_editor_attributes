@@ -1,7 +1,4 @@
-﻿// Initial Concept by http://www.reddit.com/user/zaikman
-// Revised by http://www.reddit.com/user/quarkism
-
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace OT.Attributes
 {
