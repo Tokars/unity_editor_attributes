@@ -1,8 +1,8 @@
+using UnityEditor;
+using UnityEngine;
+
 namespace OT.Attributes.Editor
 {
-    using UnityEngine;
-    using UnityEditor;
-
     [CustomPropertyDrawer(typeof(FieldHelpAttribute))]
     public class FieldHelpAttributeDrawer : DecoratorDrawer
     {
