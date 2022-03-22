@@ -11,6 +11,6 @@ namespace OT.Attributes.Editor
     {
         public string GUID;
 
-        public string Path => AssetDatabase.GUIDToAssetPath(GUID);
+        public string Path => AssetDatabase.GUIDToAssetPath(GUID)+"/";
     }
 }
