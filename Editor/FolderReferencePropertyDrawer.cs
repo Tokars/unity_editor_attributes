@@ -2,6 +2,10 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
+/*
+ * @author: Docboy
+ * https://forum.unity.com/threads/what-is-a-serializable-asset-type-for-folder.608875/#post-6447746
+ */
 namespace OT.Attributes.Editor
 {
     [CustomPropertyDrawer(typeof(FolderReference))]
