@@ -1,11 +1,12 @@
 {
   "name": "dev.tokar.attributes",
-  "displayName": "Editor Custom Attributes",
-  "description": "Unity editor custom attributes.",
-  "version": "0.1.10",
+  "displayName": "Editor Custom Inspector",
+  "description": "Unity editor custom inspector extensions.",
+  "version": "0.1.11",
   "keywords": [
     "editor",
-    "attributes"
+    "attributes",
+    "inspector"
   ],
   
   "author": {
