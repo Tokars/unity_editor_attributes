@@ -2,7 +2,7 @@
 
 namespace OT.Attributes
 {
-    /// <summary> Simple button for method without parameters </summary>
+    /// <summary> MonoBehavior Simple button for method without parameters </summary>
     [System.AttributeUsage(System.AttributeTargets.Method)]
     public class EditorButtonAttribute : PropertyAttribute
     {
