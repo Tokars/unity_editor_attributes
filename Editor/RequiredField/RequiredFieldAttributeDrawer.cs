@@ -10,6 +10,7 @@ namespace OT.Attributes.Editor.RequiredField
     public class RequiredFieldAttributeDrawer : PropertyDrawer
     {
         private int warningHeight = 30;
+        private Color32 _errorColor = new Color32(255, 81, 49, 255);
 
         /// <summary>
         /// Gets the height that is passed into the rect in OnGUI.
@@ -48,7 +49,7 @@ namespace OT.Attributes.Editor.RequiredField
             EditorGUI.BeginProperty(position, label, property);
 
             if (IsNotWiredUp(property))
-                GUI.color = Color.red;
+                GUI.color = _errorColor;
 
             //Add GameObject instance ID to mark it with icon in hierarchy
             
