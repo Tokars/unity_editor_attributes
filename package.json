@@ -2,7 +2,7 @@
   "name": "tokar.dev.attributes",
   "displayName": "Editor Custom Inspector",
   "description": "Unity editor custom inspector extensions.",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "keywords": [
     "editor",
     "attributes",
