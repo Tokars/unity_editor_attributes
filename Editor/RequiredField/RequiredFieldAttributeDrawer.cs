@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using OT.Attributes.Inspector.RequiredField;
+using UnityEditor;
 using UnityEngine;
 
 namespace OT.Attributes.Editor.RequiredField

@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using OT.Attributes;
+using OT.Attributes.Inspector.RequiredField;
 using UnityEditor;
 using UnityEngine;
 
@@ -16,7 +16,6 @@ namespace OT.Attributes.Editor.RequiredField
         /// <summary>
         /// Searchs for and error for not null violations in the scene and asset database
         /// </summary>
-        [MenuItem("Tools/Not Null Finder")]
         public static bool SearchForAndErrorForRequiredFieldViolations()
         {
             // Debug.Log ("Searching for null NotNull fields");
@@ -27,12 +26,6 @@ namespace OT.Attributes.Editor.RequiredField
             {
                 Log("Loading GUID: " + guid);
                 string pathToGameObject = AssetDatabase.GUIDToAssetPath(guid);
-
-                // Skip test assets. This should be done using asset settings in the future.
-                if (pathToGameObject.Contains("RedBlueGames/NotNullAttribute/Tests"))
-                {
-                    continue;
-                }
 
                 Log("Loading Asset for guid at path: " + pathToGameObject);
                 GameObject gameObject = (GameObject)AssetDatabase.LoadAssetAtPath(pathToGameObject, typeof(GameObject));

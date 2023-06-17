@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace OT.Attributes
+namespace OT.Attributes.Inspector.RequiredField
 {
     /// <summary>
     /// Not Null Attribute will error in the Editor if an object field has not been assigned.
