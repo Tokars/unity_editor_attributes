@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
-using OT.Attributes.Inspector.RequiredField;
+using OT.Attributes;
 using UnityEditor;
 using UnityEngine;
 

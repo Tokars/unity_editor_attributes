@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using UnityEngine;
 
-namespace OT.Attributes.Inspector.RequiredField
+namespace OT.Attributes
 {
     /// <summary>
     /// Not null violation represents data for objects that do not have their required (NotNull) fields

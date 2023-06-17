@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace OT.Attributes.Inspector.RequiredField
+namespace OT.Attributes
 {
     /// <summary>
     /// Utility methods to help with Reflection
