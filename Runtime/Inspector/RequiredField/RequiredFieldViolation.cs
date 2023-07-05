@@ -4,7 +4,7 @@ using UnityEngine;
 namespace OT.Attributes
 {
     /// <summary>
-    /// Not null violation represents data for objects that do not have their required (NotNull) fields
+    /// Required Field violation represents data for objects that do not have their required fields
     /// assigned.
     /// </summary>
     public class RequiredFieldViolation
@@ -12,17 +12,17 @@ namespace OT.Attributes
         /// <summary>
         /// Initializes a new instance of the <see cref="RequiredFieldViolation"/> class.
         /// </summary>
-        /// <param name="fieldInfo">Field info that describes the NotNull field.</param>
+        /// <param name="fieldInfo">Field info that describes the required field.</param>
         /// <param name="sourceMB">Source MonoBehavior that contains the field.</param>
         public RequiredFieldViolation(FieldInfo fieldInfo, MonoBehaviour sourceMB)
         {
-            this.FieldInfo = fieldInfo;
-            this.SourceMonoBehaviour = sourceMB;
-            this.ErrorGameObject = sourceMB.gameObject;
+            FieldInfo = fieldInfo;
+            SourceMonoBehaviour = sourceMB;
+            ErrorGameObject = sourceMB.gameObject;
         }
 
         /// <summary>
-        /// Gets or sets the field info associated with the NotNull attribute.
+        /// Gets or sets the field info associated with the RequiredField attribute.
         /// </summary>
         /// <value>The field info.</value>
         public FieldInfo FieldInfo { get; set; }

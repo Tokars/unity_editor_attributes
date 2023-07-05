@@ -1,17 +1,15 @@
 {
   "name": "tokar.dev.attributes",
-  "displayName": "Editor Custom Inspector",
+  "displayName": "OT Attributes",
   "description": "Unity editor custom inspector extensions.",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "keywords": [
     "editor",
     "attributes",
     "inspector"
   ],
   "author": {
-    "name": "Oleksandr Tokar",
-    "email": "#",
-    "url": "https://#"
+    "name": "Oleksandr Tokar"
   },
   "type": "editor"
 }

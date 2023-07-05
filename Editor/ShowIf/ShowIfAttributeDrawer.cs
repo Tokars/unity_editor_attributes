@@ -64,7 +64,7 @@ namespace OT.Attributes.Editor.ShowIf
 
         private bool MeetsConditions(SerializedProperty property)
         {
-            var showIfAttribute = this.attribute as ShowIfAttribute;
+            var showIfAttribute = attribute as ShowIfAttribute;
             var target = property.serializedObject.targetObject;
             List<bool> conditionValues = new List<bool>();
 
@@ -130,7 +130,7 @@ namespace OT.Attributes.Editor.ShowIf
             // Calcluate the property height, if we don't meet the condition and the draw 
             // mode is DontDraw, then height will be 0.
             bool meetsCondition = MeetsConditions(property);
-            var showIfAttribute = this.attribute as ShowIfAttribute;
+            var showIfAttribute = attribute as ShowIfAttribute;
 
             if (!meetsCondition && showIfAttribute.Action == ActionOnConditionFail.DO_NOT_DRAW)
             {
@@ -150,7 +150,7 @@ namespace OT.Attributes.Editor.ShowIf
                 return;
             }
 
-            var showIfAttribute = this.attribute as ShowIfAttribute;
+            var showIfAttribute = attribute as ShowIfAttribute;
             if (showIfAttribute.Action == ActionOnConditionFail.DO_NOT_DRAW)
             {
                 return;

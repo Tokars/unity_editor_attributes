@@ -4,7 +4,7 @@ using UnityEngine;
 namespace OT.Attributes.Editor.RequiredField
 {
     /// <summary>
-    /// Class that contains logic to find NotNull violations when pressing Play from the Editor
+    /// Class that contains logic to find RequiredField violations when pressing Play from the Editor
     /// </summary>
     [InitializeOnLoad]
     public class FindRequiredFieldsOnLaunch

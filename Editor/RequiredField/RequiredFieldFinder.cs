@@ -6,7 +6,7 @@ using UnityEngine;
 namespace OT.Attributes.Editor.RequiredField
 {
     /// <summary>
-    /// NotNullFinder fires off checks for NotNull violations in the scene and asset database
+    /// RequiredFieldFinder fires off checks for RequiredField violations in the scene and asset database
     /// and reports their errors.
     /// </summary>
     public class RequiredFieldFinder : EditorWindow
@@ -18,7 +18,6 @@ namespace OT.Attributes.Editor.RequiredField
         /// </summary>
         public static bool SearchForAndErrorForRequiredFieldViolations()
         {
-            // Debug.Log ("Searching for null NotNull fields");
             // Search for and error for prefabs with null RequireWire fields
             string[] guidsForAllGameObjects = AssetDatabase.FindAssets("t:GameObject");
             bool errorsFound = false;
@@ -50,7 +49,6 @@ namespace OT.Attributes.Editor.RequiredField
             }
 
             return errorsFound;
-            // Debug.Log ("NotNull search complete");
         }
 
         private static bool ErrorForNullRequiredWiresOnGameObject(GameObject gameObject, string pathToAsset)

@@ -13,7 +13,7 @@ namespace OT.Attributes.Editor.RequiredField
     public static class RequiredFieldChecker
     {
         /// <summary>
-        /// Finds the erroring NotNull fields on a GameObject.
+        /// Finds the erroring required fields on a GameObject.
         /// </summary>
         /// <returns>The erroring fields.</returns>
         /// <param name="sourceObject">Source object.</param>
@@ -50,17 +50,17 @@ namespace OT.Attributes.Editor.RequiredField
 
             List<RequiredFieldViolation> erroringFields = new List<RequiredFieldViolation>();
 
-            // Add null NotNull fields
-            List<FieldInfo> notNullFields =
+            // Add null RequiredField fields
+            List<FieldInfo> requiredFields =
                 ReflectionUtility.GetFieldsWithAttributeFromType<RequiredFieldAttribute>(
                     sourceMb.GetType(),
                     BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
-            foreach (FieldInfo notNullField in notNullFields)
+            foreach (FieldInfo field in requiredFields)
             {
-                object fieldObject = notNullField.GetValue(sourceMb);
+                object fieldObject = field.GetValue(sourceMb);
                 if (fieldObject == null || fieldObject.Equals(null))
                 {
-                    erroringFields.Add(new RequiredFieldViolation(notNullField, sourceMb));
+                    erroringFields.Add(new RequiredFieldViolation(field, sourceMb));
                 }
             }
 
