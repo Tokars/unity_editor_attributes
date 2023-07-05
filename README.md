@@ -20,3 +20,5 @@
   [SerializeField, PreviewSprite(100)] private Sprite sprite;
   ```
 - **[EditorButton] and [ScriptableEditorButton]** Simple method attribute (without params). Display simple inspector button.
+- **[MinMaxSlider(0, 10)]** Simple min. / max. inspector Vector2 based slider.
+- **[ReadOnly]** Display disabled/not active field.
