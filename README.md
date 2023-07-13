@@ -1,4 +1,4 @@
-# Custom unity attributes.
+## Custom unity attributes. [![openupm](https://img.shields.io/npm/v/tokar.dev.attributes?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/tokar.dev.attributes/)
 
 ### Inspector:
 

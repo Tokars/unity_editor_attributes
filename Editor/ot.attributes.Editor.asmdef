@@ -1,8 +1,12 @@
 {
-    "name": "com.tokar.attributes.Runtime",
+    "name": "ot.attributes.Editor",
     "rootNamespace": "OT.Attributes",
-    "references": [],
-    "includePlatforms": [],
+    "references": [
+        "GUID:c284b9a9d3dea5681b4bb5cdf4790bd5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
